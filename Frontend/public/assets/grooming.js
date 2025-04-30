@@ -1,0 +1,143 @@
+import g11_img from "../assets/grooming1.avif";
+import g12_img from "../assets/grooming2.avif";
+import g13_img from "../assets/grooming3.avif";
+import g14_img from "../assets/grooming4.avif";
+import g15_img from "../assets/grooming5.avif";
+import g16_img from "../assets/grooming6.avif";
+import g17_img from "../assets/grooming7.avif";
+import g18_img from "../assets/grooming8.avif";
+import g19_img from "../assets/grooming9.avif";
+import g20_img from "../assets/grooming10.webp";
+import g22_img from "../assets/grooming11.avif";
+
+let grooming = [
+  {
+    id: 501,
+    brand: "BEARDO",
+    name: "Whisky Smoke Perfume Combo | 1000.0 gm",
+    category: "Grooming",
+    image: g11_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 651,
+    old_price: 1549,
+    sizes: ["1000.0 gm"],
+  },
+  {
+    id: 502,
+    brand: "BEARDO",
+    name: "Men Spy Mafia & Don Most Wanted Body Spray Set | 1000.0 gm",
+    category: "Grooming",
+    image: g12_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 349,
+    old_price: 947,
+    sizes: ["1000.0 gm"],
+  },
+  {
+    id: 503,
+    brand: "BEARDO",
+    name: " APE-X Prime 3-in-1 Multipurpose Trimmer",
+    category: "Grooming",
+    image: g13_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 1049,
+    old_price: 1499,
+    sizes: ["FreeSize"],
+  },
+  {
+    id: 504,
+    brand: "NIVEA MEN",
+    name: "Fresh Active Deodorant Roll On | 50.0 ml",
+    category: "Grooming",
+    image: g14_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 152,
+    old_price: 249,
+    sizes: ["50 ml"],
+  },
+  {
+    id: 505,
+    brand: "DAVIDOFF",
+    name: "Cool Water Um Male Perfume | 50.0 ml",
+    category: "Grooming",
+    image: g15_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 3619,
+    old_price: 4700,
+    sizes: ["50 ml"],
+  },
+  {
+    id: 506,
+    brand: "SUPERDRY",
+    name: "Vegan Body Spray - Ceaderwood Mandar In Amber | 200.0 ml",
+    category: "Grooming",
+    image: g16_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 235,
+    old_price: 499,
+    sizes: ["50 ml"],
+  },
+  {
+    id: 507,
+    brand: "NIVEA",
+    name: "Dark Spot Reduction Cream | 75.0 ml",
+    category: "Grooming",
+    image: g17_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 191,
+    old_price: 255,
+  },
+  {
+    id: 508,
+    brand: "18.21 MAN MADE",
+    name: "Sweet Tobacco Hair Styling Wax | 56.7 gm",
+    category: "Grooming",
+    image: g18_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 2550,
+    old_price: 3000,
+  },
+  {
+    id: 509,
+    brand: "RALPH LAUREN",
+    name: "Polo Black Eau De Toilette | 75.0 ml",
+    category: "Grooming",
+    image: g19_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 4050,
+    old_price: 5400,
+  },
+  {
+    id: 510,
+    brand: "WILD STONE",
+    name: "Hydra Energy Eau De Parfum | 50.0 ml",
+    category: "Grooming",
+    image: g20_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 279,
+    old_price: 399,
+  },
+  {
+    id: 511,
+    brand: "GILLETTE",
+    name: "Mach 3 Bladed Shaving Cartridges Razor | 1000.0 gm",
+    category: "Grooming",
+    image: g22_img,
+    rating: 3.9,
+    comments: 200,
+    new_price: 1702,
+    old_price: 2075,
+  },
+];
+
+export default grooming;
