@@ -93,7 +93,7 @@ const Footer = () => {
         className={`p-3 text-center text-sm transition-all
           ${theme === "dark" ? "bg-[#4A4E69] text-[#F0EBE3]" : "bg-[#0D1321] text-[#F0EBE3]"}`}
       >
-        <h1>&copy; 2025 Created by Sai Ganesh Ratnala. All Rights Reserved.</h1>
+        <h1>&copy; 2025 Created by Uttej P. All Rights Reserved.</h1>
       </div>
     </>
   );
